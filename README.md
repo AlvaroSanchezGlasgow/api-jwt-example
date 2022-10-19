@@ -1,2 +1,2 @@
-# api-jwt-example
-api example using jwt authentication
+# portal-api
+BackEnd APIs for the portal-front website

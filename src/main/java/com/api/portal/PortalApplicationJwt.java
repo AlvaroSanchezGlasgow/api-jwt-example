@@ -1,0 +1,23 @@
+package com.api.portal;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import javax.annotation.PostConstruct;
+import java.util.TimeZone;
+
+@SpringBootApplication
+@EnableTransactionManagement
+public class PortalApplicationJwt {
+
+	public static void main(String[] args) {
+
+
+		SpringApplication.run(PortalApplicationJwt.class, args);
+
+	}
+
+	
+
+}
